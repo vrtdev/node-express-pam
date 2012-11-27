@@ -1,14 +1,17 @@
 {
     "name": "pam-auth"
   , "main": "lib/pam_auth.js"
-  , "version": "0.1.1"
+  , "version": "0.2.0"
   , "private": false
   , "description" : "A Connect / Express compatible middleware for providing Basic http auth using PAM."
   , "dependencies": {
-    "unixlib" : "=0.1.0"
+    "authenticate-pam" : "0.1.x"
   }
   , "repository" :
     { "type" : "git"
     , "url" : "https://cconstantine@github.com/cconstantine/PAM-Auth.git"
     }
+  , "engines": {
+    "node": ">=0.8"
+  }
 }
