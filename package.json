@@ -5,7 +5,7 @@
   , "private": false
   , "description" : "A Connect / Express compatible middleware for providing Basic http auth using PAM."
   , "dependencies": {
-    "authenticate-pam" : ">= 1.0.0"
+    "authenticate-pam" : "vrtdev/node-authenticate-pam"
   }
   , "repository" :
     { "type" : "git"
